@@ -70,3 +70,34 @@ p {
 .icon:hover {
     color: #ff4c68;
 }
+
+/*Testimonial */
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 30%;
+}
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin:1rem;
+}
+em {
+    color: white;
+}
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 10%;
+    margin: 1rem 1rem 1.5rem;
+
+}
