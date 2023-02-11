@@ -1,6 +1,7 @@
 #title {
     background-color: #ff4c68 ;
     color: white;
+
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +16,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
 
 
 /*Navigation Bar*/
@@ -44,12 +48,18 @@ body {
 
 /*Title Image*/
 .title-image{
-    width: 50%;
+    width: 18%;
     transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    right: 25%;
 }
 /*Features Section */
 #features {
     padding: 7%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
 
 }
 .feature-box{
@@ -75,9 +85,12 @@ p {
 #testimonials {
     text-align: center;
     background-color: #ff4c68;
-    padding: 5% 30%;
 }
-h2 {
+.carousel-item{
+        padding: 5% 30%;
+
+}
+.testimonials h2 {
     color: white;
     font-weight: bold;
     font-size: 3rem;
@@ -100,4 +113,9 @@ em {
     width: 10%;
     margin: 1rem 1rem 1.5rem;
 
+}
+/*Pricing Section*/
+#pricing{
+    padding: 3rem;
+    text-align: center;
 }
